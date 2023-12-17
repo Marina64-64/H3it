@@ -9,6 +9,7 @@ int main()
 	cout << "learning git is fun" << endl;
 	cout << "ay habal" << endl;
 	cout << "push to github" << endl;
+	cout << "hna 3mlna create l github branch" << endl;
 }
 int my_sum(int a, int b)
 {
