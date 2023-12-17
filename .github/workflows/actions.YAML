@@ -2,9 +2,9 @@ name: Github Actions Demo
 on: push
 jobs:
   Explore-Github-Actions:
-    runs-on: ubuntu-latest
+    runs-on: Microsoft Windows
     steps:
       - name: Print the triggering event
-        run: echo "The job was triggered by push."
+        run: echo "The job was triggered by ${{ push }}."
       - name: Print the OS of the runner 
-        run: echo " Ths job is running on a linux server "
+        run: echo " Ths job is running on a ${{ Microsoft Windows }} server "
